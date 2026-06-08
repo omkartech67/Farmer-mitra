@@ -39,14 +39,31 @@ Project Structure
 
 Farmer_Mitra/
 │
-├── core_logic/
-├── templates/
-├── static/
-├── media/
-├── users/
-├── schemes/
+├── farmer_mitra/              # Main project settings
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+│
+├── users/                     # User authentication and profile management
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── forms.py
+│
+├── schemes/                   # Government schemes module
+│   ├── models.py
+│   ├── views.py
+│   └── urls.py
+│
+├── templates/                 # HTML templates
+├── static/                    # CSS, JavaScript, Images
+├── media/                     # Uploaded files
+├── core_logic/                # Business logic
+│
 ├── manage.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
 
 Installation
 
@@ -60,8 +77,6 @@ cd farmer-mitra
 python -m venv venv
 
 3. Activate Virtual Environment
-
-Windows:
 
 venv\Scripts\activate
 
