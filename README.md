@@ -36,7 +36,7 @@ Version Control
 - GitHub
 
 ##Project Structure
-
+```text
 Farmer_Mitra/
 │
 ├── farmer_mitra/              # Main project settings
@@ -64,7 +64,7 @@ Farmer_Mitra/
 ├── manage.py
 ├── requirements.txt
 └── README.md
-
+```
 Installation
 
 1. Clone Repository
